@@ -15,12 +15,15 @@ body {
 }
 
 .testimoni {
+    display: flex;
+    flex-direction: column;
     padding: 10px;
     margin: 10px 0;
     background-color: #fff;
 }
 
 .author {
-    float: right;
+    /* align-self: flex-end; */
+    text-align: right;
     font-style: italic;
 }
